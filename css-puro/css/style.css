@@ -66,3 +66,49 @@
     font-style: italic;
     font-size: 1.125em;
 }
+
+/* About */
+
+.c-about {
+    padding: 60px 0;
+}
+
+.c-about__title {
+    text-align: center;
+    font-size: 2.25em;
+    margin: 60px;
+}
+
+.c-about__item {
+    width: 460px;
+    float: left;
+    margin: 0 10px;
+}
+
+.c-about__item img {
+    display: block;
+    max-width: 100%;
+}
+
+.c-about__item h3 {
+    font-size: 2.25em;
+    line-height: 1em;
+    background: #252525;
+    width: 220px;
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px 0 10px 0;
+    top: -25px;
+    position: relative;
+}
+
+.c-about > p {
+    font-size: 1.25em;
+    line-height: 1.4em;
+    font-style: italic;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 460px;
+}

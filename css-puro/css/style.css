@@ -38,3 +38,31 @@
     display: table;
     clear: both;
 }
+
+/* Introduction */
+
+.c-intro {
+    background: url('../img/bg-intro.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 150px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.c-intro__title {
+    text-transform: uppercase;
+    font-size: 3em;
+}
+.c-intro__title::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 4px;
+    background: #fff;
+    margin: 10px auto;
+}
+
+.c-intro__subtitle {
+    font-style: italic;
+    font-size: 1.125em;
+}

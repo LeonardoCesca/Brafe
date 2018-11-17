@@ -116,9 +116,9 @@
 }
 
 .c-products__item {
-    width: 300px;
+    flex: 1;
     float: left;
-    margin: 0 10px 20px 10px;
+    margin: 0 10px 40px 10px;
 }
 
 .c-products__item h2 {
@@ -174,14 +174,11 @@
 /* Locals */
 
 .c-local {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px 0;
+   padding: 60px 0; 
 }
 
 .c-local__item {
-    clear: both;
-    margin: 60px auto;
+    margin-bottom: 40px;
 }
 
 .c-local__item::before, .c-local__item::after {
@@ -190,19 +187,16 @@
     display: table;
 }
 
-.c-local__item img {
-    width: 460px;
-    float: left;
+.c-local__img, .c-local__info {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.c-local__img img {
     display: block;
-    margin: 0 10px;
+    max-width: 100%;
 }
-
-.c-local__item>div {
-    width: 460px;
-    float: left;
-    margin: 0 10px;
-}
-
+ 
 .c-local__item h2 {
     font-size: 2.25em;
     margin-bottom: 20px;

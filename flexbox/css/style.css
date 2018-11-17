@@ -1,0 +1,303 @@
+.c-menu {
+    background: #252525;
+    padding: 15px 0;
+}
+
+.c-container {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.c-menu__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.125em;
+}
+
+.c-menu__nav {
+    flex: 1;
+    align-self: center;
+}
+
+.c-menu__nav ul {
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+.c-menu__nav ul li a {
+    padding: 10px;
+}
+
+/* Introduction */
+
+.c-intro {
+    background: url('../img/bg-intro.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 150px 0;
+    text-align: center;
+    color: #fff;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.c-intro__title {
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.c-intro__title::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 4px;
+    background: #fff;
+    margin: 10px auto;
+}
+
+.c-intro__subtitle {
+    font-style: italic;
+    font-size: 1.125em;
+}
+
+/* About */
+
+.c-about {
+    padding: 60px 0;
+}
+
+.c-about__title {
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 60px;
+}
+
+.c-about__item {
+   flex: 1;
+    margin: 0 10px;
+}
+
+.c-about__item img {
+    display: block;
+    max-width: 100%;
+}
+
+.c-about__item h3 {
+    font-size: 2.25em;
+    line-height: 1em;
+    background: #252525;
+    width: 220px;
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px 0 10px 0;
+    top: -25px;
+    position: relative;
+}
+
+.c-about>p {
+    font-size: 1.25em;
+    line-height: 1.4em;
+    font-style: italic;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 460px;
+}
+
+/* Products */
+
+.c-products {
+    background: #e7e4d8;
+    padding: 60px 0;
+    border-top: 3px solid#d6d3c8;
+    border-bottom: 3px solid#d6d3c8;
+}
+
+.c-products__item {
+    width: 300px;
+    float: left;
+    margin: 0 10px 20px 10px;
+}
+
+.c-products__item h2 {
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+
+.c-products__item h2::before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: currentColor;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 5px solid #e7e4d8;
+    box-shadow: 0 0 0 5px currentColor;
+}
+
+.c-products__item p {
+    font-size: 0.875em;
+    line-height: 1.4em;
+}
+
+.c-products__paulista::before {
+    color: #492901;
+}
+
+.c-products__carioca::before {
+    color: #c17139;
+}
+
+.c-products__mineiro::before {
+    color: #d7a54d;
+}
+
+.c-products__btn {
+    width: 180px;
+    border: 3px solid #252525;
+    color: #252525;
+    text-decoration: none;
+    display: block;
+    font-size: 1.125em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
+    margin: 20px auto 0 auto;
+}
+
+
+/* Locals */
+
+.c-local {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.c-local__item {
+    clear: both;
+    margin: 60px auto;
+}
+
+.c-local__item::before, .c-local__item::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.c-local__item img {
+    width: 460px;
+    float: left;
+    display: block;
+    margin: 0 10px;
+}
+
+.c-local__item>div {
+    width: 460px;
+    float: left;
+    margin: 0 10px;
+}
+
+.c-local__item h2 {
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+
+.c-local__item p {
+    font-size: 1.125em;
+    line-height: 1.4em;
+    max-width: 320px;
+    margin-bottom: 40px;
+}
+
+.c-local__item a {
+    font-size: 1.125em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 3px solid;
+    color: #252525;
+    padding: 10px 20px;
+}
+
+
+/* Newsletter */
+
+.c-newsletter {
+    background: #e7e4d8;
+    padding: 30px 0;
+}
+
+.c-newsletter__info {
+    width: 460px;
+    margin: 0 10px;
+    float: left;
+}
+
+.c-newsletter__info h2 {
+    font-size: 2.25em;
+}
+
+.c-newsletter__info p {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.c-newsletter form {
+    width: 460px;
+    margin: 10px 10px 0 10px;
+    float: left;
+}
+
+.c-newsletter form label {
+    display: none;
+}
+
+.c-newsletter input {
+    box-sizing: border-box;
+    width: 320px;
+    border: 3px solid #252525;
+    background: none;
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    float: left;
+}
+
+.c-newsletter button {
+    background: #252525;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    width: 140px;
+    padding: 13px 0;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+.c-footer {
+    background: #d6d3c8;
+    padding: 40px 0;
+}
+
+.c-footer p {
+    float: left;
+    margin: 0 10px;
+    font-size: 1.125em;
+    line-height: 1.4em;
+}
+
+.c-footer img {
+    float: right;
+    margin: 0 10px;
+    display: block;
+}
